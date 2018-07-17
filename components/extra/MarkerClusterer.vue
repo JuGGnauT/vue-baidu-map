@@ -82,7 +82,6 @@
           if (this.nextTickNum !== this.initNum) {
             return
           }
-          console.log('init')
           this.initNum = 0
           this.nextTickNum = 0
           this.originInstance = new MarkerClusterer(map, {
